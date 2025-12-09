@@ -3,12 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrintZone</title>
+    <title>PrintZone4u</title>
 
-    <link rel="stylesheet" href="src/static/styles/homePage.css">
-    <script src="src/static/scripts/main.js"></script>
+    <link rel="stylesheet" href="../static/styles/homePage.css">
+    <script src="../static/scripts/main.js"></script>
 </head>
 <body>
-    <h1>Welcome to PrintZone</h1>
+
+    <div class="banner">
+        <p>Get the best quality stationery and printable items at the best prices</p>
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <img src="../static/assets/logo.png" alt="PrintZone4u Logo" class="logo">
+            <h1 class="site-title">PrintZone4u</h1>
+        </div>
+        <div class="links-container">
+            <a href="/contact" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M6 17c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6m9-9a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3a3 3 0 0 1 3 3M3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2" />
+                </svg>
+                Contact Us
+            </a>
+            <a href="/contact#find-us" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path fill="currentColor" d="M16 2A11.013 11.013 0 0 0 5 13a10.9 10.9 0 0 0 2.216 6.6s.3.395.349.452L16 30l8.439-9.953c.044-.053.345-.447.345-.447l.001-.003A10.9 10.9 0 0 0 27 13A11.013 11.013 0 0 0 16 2m0 15a4 4 0 1 1 4-4a4.005 4.005 0 0 1-4 4" />
+                    <circle cx="16" cy="13" r="4" fill="none" />
+                </svg>
+                Visit Us
+            </a>
+        </div>
+    </header>
+
+    <img src="../static/assets/altherobg.png" alt="Background Image" class="hero-img">
+
+    <navbar class="nav-bar">
+        <div class="page-item">
+            <button class="page-link">All Categories <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">
+                <b>Explore all product categories</b><br><br>
+                <a href="/productPage?q=stationery">Stationery</a><br>
+                <a>Apparel</a><br>
+                <a>Gifts</a><br>
+                <a>Marketing</a><br>
+                <a>Packaging</a><br>
+                <a>Rewards and Recognition</a>
+            </div>
+        </div>
+
+        <div class="page-item">
+            <button class="page-link">Stationery <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">Shop stationery items</div>
+        </div>
+
+        <div class="page-item">
+            <button class="page-link">Apparel <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">Browse apparel options</div>
+        </div>
+
+        <div class="page-item">
+            <button class="page-link">Gifts <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">Find unique gifts</div>
+        </div>
+
+        <div class="page-item">
+            <button class="page-link">Marketing <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">Marketing materials</div>
+        </div>
+
+        <div class="page-item">
+            <button class="page-link">Packaging <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">Packaging solutions</div>
+        </div>
+
+        <div class="page-item">
+            <button class="page-link">Rewards and Recognition <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l5-5H7z"/></svg></button>
+            <div class="tooltip-content">Rewards and recognition products</div>
+        </div>
+    </navbar>
+
+    <section class="hero-section">
+        <h1 class="main-text">PrintZone4u</h1>
+        <p>PrintZone4u provides high-quality printing, custom stationery, striking signage, impactful marketing materials, and premium packaging — all in one place. From businesses to individuals, we bring your ideas to life with precision, creativity, and reliable service.</p>
+        <div class="cta-container">
+            <button class="cta-1" onclick="location.href='/products'">Shop Now</button>
+            <button class="cta-2" onclick="location.href='/contact'">Get a Quote</button>
+        </div>
+    </section>
+
+    <marquee class="categories-marquee" behavior="scroll" direction="left" scrollamount="7">
+        •&emsp;Document Printing&emsp;•&emsp;Photo Printing&emsp;•&emsp;Booklets & Brochures&emsp;•&emsp;Custom Posters&emsp;•&emsp;Packaging Solutions&emsp;•&emsp;Personalized Gifts&emsp;•&emsp;Labels & Stickers&emsp;•&emsp;Business Stationery&emsp;•&emsp;
+    </marquee>
+
+
+    <section class="featured-products-section">
+        <h2>Featured Products</h2>
+
+        <div class="featured-products-grid">
+            <div class="product-card">
+                <a href="/product?q=id">
+                    <img class="product-img" src="../static/assets/product1.jpg">
+                    <h3>Hardcover Notebook</h3>
+                    <p>High-quality Hardcover notebook with customizable cover.</p>
+                    <p><span style="color: rgb(50, 169, 50); font-weight: bold;">INR 320</span> per piece <span style="color: rgb(59, 120, 205); font-weight: bold;">MOQ: 20</span></p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="/product?q=id">
+                    <img class="product-img" src="../static/assets/product2.jpg">
+                    <h3>Custom T-Shirt</h3>
+                    <p>Comfortable cotton t-shirt with personalized printing options.</p>
+                    <p><span style="color: rgb(50, 169, 50); font-weight: bold;">INR 400</span> per piece <span style="color: rgb(59, 120, 205); font-weight: bold;">MOQ: 10</span></p>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="/product?q=id">
+                    <img class="product-img" src="../static/assets/product3.jpg">
+                    <h3>Photo Mug</h3>
+                    <p>Ceramic mug with high-resolution photo printing.</p>
+                    <p><span style="color: rgb(50, 169, 50); font-weight: bold;">INR 250</span> per piece <span style="color: rgb(59, 120, 205); font-weight: bold;">MOQ: 5</span></p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <marquee class="categories-marquee-black" behavior="scroll" direction="left" scrollamount="7">
+        •&emsp;Document Printing&emsp;•&emsp;Photo Printing&emsp;•&emsp;Booklets & Brochures&emsp;•&emsp;Custom Posters&emsp;•&emsp;Packaging Solutions&emsp;•&emsp;Personalized Gifts&emsp;•&emsp;Labels & Stickers&emsp;•&emsp;Business Stationery&emsp;•&emsp;
+    </marquee>
+
+    <section class="selling-points-section">
+        <div class="point-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M11.25 7.847c-.936.256-1.5.975-1.5 1.653s.564 1.397 1.5 1.652zm1.5 5.001v3.304c.936-.255 1.5-.974 1.5-1.652s-.564-1.397-1.5-1.652" />
+                <path fill="currentColor" fill-rule="evenodd" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10M12 5.25a.75.75 0 0 1 .75.75v.317c1.63.292 3 1.517 3 3.183a.75.75 0 0 1-1.5 0c0-.678-.564-1.397-1.5-1.653v3.47c1.63.292 3 1.517 3 3.183s-1.37 2.891-3 3.183V18a.75.75 0 0 1-1.5 0v-.317c-1.63-.292-3-1.517-3-3.183a.75.75 0 0 1 1.5 0c0 .678.564 1.397 1.5 1.652v-3.469c-1.63-.292-3-1.517-3-3.183s1.37-2.891 3-3.183V6a.75.75 0 0 1 .75-.75" clip-rule="evenodd" />
+            </svg>
+            <h3>Best Prices</h3>
+            <p>We offer competitive pricing without compromising on quality, ensuring you get the best value for your money.</p>
+        </div>
+
+        <div class="point-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M15 4a8 8 0 0 1 8 8a8 8 0 0 1-8 8a8 8 0 0 1-8-8a8 8 0 0 1 8-8m0 2a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6a6 6 0 0 0-6-6m-1 2h1.5v3.78l2.33 2.33l-1.06 1.06L14 12.4zM2 18a1 1 0 0 1-1-1a1 1 0 0 1 1-1h3.83c.31.71.71 1.38 1.17 2zm1-5a1 1 0 0 1-1-1a1 1 0 0 1 1-1h2.05L5 12l.05 1zm1-5a1 1 0 0 1-1-1a1 1 0 0 1 1-1h3c-.46.62-.86 1.29-1.17 2z" />
+            </svg>
+            <h3>Delivery Commitment</h3>
+            <p>We guarantee timely delivery of your orders, ensuring that your projects stay on schedule and meet your deadlines.</p>
+        </div>
+
+        <div class="point-card">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="currentColor" d="m11.3 2.26l-6 2.25C4.52 4.81 4 5.55 4 6.39v4.71c0 5.05 3.41 9.76 8 10.91c4.59-1.15 8-5.86 8-10.91V6.39a2 2 0 0 0-1.3-1.87l-6-2.25c-.45-.18-.95-.18-1.4-.01m-1.07 12.57l-2.12-2.12a.996.996 0 1 1 1.41-1.41l1.41 1.41l3.54-3.54a.996.996 0 1 1 1.41 1.41l-4.24 4.24c-.38.4-1.02.4-1.41.01" />
+            </svg>
+            <h3>Quality Assurance</h3>
+            <p>We are committed to delivering products that meet the highest standards of quality, ensuring your satisfaction with every order.</p>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <h2>Testimonials from our customers</h2>
+        <br><br><br>
+        
+        <div class="carousel-container">
+
+                <div class="testimonial-card fade">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"PrintZone4u exceeded our expectations! The quality of our custom brochures was exceptional, and the delivery was on time. Highly recommended!"</p>
+                    <p class="testimonial-author">- Sarah Johnson</p>
+                </div>
+
+                <div class="testimonial-card fade">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"We've been ordering custom t-shirts for our company events for over a year now. The service is fantastic and the prices are unbeatable."</p>
+                    <p class="testimonial-author">- Michael Chen</p>
+                </div>
+
+                <div class="testimonial-card fade">
+                    <div class="stars">★★★★☆</div>
+                    <p class="testimonial-text">"Amazing quality notebooks for our corporate gifts. The personalization was perfect and the team was very helpful throughout the process."</p>
+                    <p class="testimonial-author">- Emma Rodriguez</p>
+                </div>
+
+                <div class="testimonial-card fade">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Fast turnaround on our large order of custom packaging. The attention to detail was impressive and everything arrived in perfect condition."</p>
+                    <p class="testimonial-author">- David Kumar</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"PrintZone4u made it easy to order custom promotional items. The website is user-friendly and their customer service is top-notch!"</p>
+                    <p class="testimonial-author">- Lisa Anderson</p>
+                </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-left">
+                <h2 style="margin: 0;">PrintZone4u</h2>
+                <p>PrintZone4u provides high-quality printing, custom stationery, striking signage, impactful marketing materials, and premium packaging — all in one place.</p>
+                <p>&copy; 2025 PrintZone4u. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><img src="../static/assets/fa--facebook-square.svg"></a>
+                    <a href="#" class="social-link"><img src="../static/assets/fa--instagram.svg"></a>
+                    <a href="#" class="social-link"><img src="../static/assets/fa--linkedin-square.svg"></a>
+                    <a href="#" class="social-link"><img src="../static/assets/fa--whatsapp.svg"></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="links-column">
+                    <h3>Categories</h3>
+                    <a href="/productPage?q=stationery">Stationery</a>
+                    <a href="#">Apparel</a>
+                    <a href="#">Gifts</a>
+                    <a href="#">Marketing</a>
+                    <a href="#">Packaging</a>
+                    <a href="#">Rewards and Recognition</a>
+                </div>
+                <div class="links-column">
+                    <h3>Company</h3>
+                    <a href="/contact">Contact Us</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Shipping & Delivery</a>
+                    <a href="#">Returns & Exchanges</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <h1 class="footer-tag">PrintZone4u</h1>
+    </footer>
+
+    
 </body>
 </html>
