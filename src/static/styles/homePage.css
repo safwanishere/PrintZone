@@ -65,6 +65,12 @@ header {
 
 }
 
+.home-backlink:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .site-title {
     font-size: 1.4rem;
     color: #333;
