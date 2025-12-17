@@ -7,6 +7,7 @@ body {
     font-family: 'Kedebideri', sans-serif;
     background-color: #ebebeb;
     font-size: 62.5%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -585,6 +586,10 @@ footer{
 
     footer {
         padding: 2rem;
+    }
+
+    .footer-tag{
+        font-size: 4rem;
     }
 
     .featured-products-section {

@@ -6,6 +6,7 @@ body {
     font-family: 'Kedebideri', sans-serif;
     background-color: #ebebeb;
     font-size: 62.5%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -322,6 +323,10 @@ footer{
         flex-direction: column;
         align-items: flex-start;
         gap: 2rem;
+    }
+
+    .footer-tag{
+        font-size: 4rem;
     }
 
     h1 {
